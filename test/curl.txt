@@ -8,3 +8,6 @@ curl -X GET https://ffu.azure-mobile.net/tables/merchants -H 'Content-Type: appl
 
 # Insert item
 curl -X POST https://ffu.azure-mobile.net/tables/items -H 'Content-Type: application/json' -H 'X-ZUMO-APPLICATION: NOBNKTNLVHWotAPMiQXICsknJeXZjB81' -d @test/item01.json
+
+# Insert order
+curl -X POST https://ffu.azure-mobile.net/tables/orders -H 'Content-Type: application/json' -H 'X-ZUMO-APPLICATION: NOBNKTNLVHWotAPMiQXICsknJeXZjB81' -d @test/order01.json
