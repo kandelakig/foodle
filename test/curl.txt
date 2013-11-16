@@ -1,0 +1,10 @@
+curl -X GET https://ffu.azure-mobile.net/api/search?q=foo -H 'Content-Type: application/json' -H 'X-ZUMO-APPLICATION: NOBNKTNLVHWotAPMiQXICsknJeXZjB81'
+
+# Insert merchant
+curl -X POST https://ffu.azure-mobile.net/tables/merchants -H 'Content-Type: application/json' -H 'X-ZUMO-APPLICATION: NOBNKTNLVHWotAPMiQXICsknJeXZjB81' -d @test/merch01.json
+
+# List merchants
+curl -X GET https://ffu.azure-mobile.net/tables/merchants -H 'Content-Type: application/json' -H 'X-ZUMO-APPLICATION: NOBNKTNLVHWotAPMiQXICsknJeXZjB81'
+
+# Insert item
+curl -X POST https://ffu.azure-mobile.net/tables/items -H 'Content-Type: application/json' -H 'X-ZUMO-APPLICATION: NOBNKTNLVHWotAPMiQXICsknJeXZjB81' -d @test/item01.json
