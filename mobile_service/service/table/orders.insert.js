@@ -3,6 +3,7 @@ function insert(item, user, request) {
     item.createDate = new Date()
     item.updateDate = new Date()
     item.status = 'New'
+    item.statusOrder = 1
     
     var orderItems = item.orderItems;
     

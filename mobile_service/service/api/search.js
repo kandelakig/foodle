@@ -1,4 +1,6 @@
 exports.get = function(request, response) {
+    console.log(request.query.q)
+    
 	var mssql = request.service.mssql
 	var text = (request.query.q || '') + '%'
 
@@ -16,6 +18,7 @@ exports.get = function(request, response) {
 		success: function(res) {
 			result.merchants = res
             oneComplete = oneComplete ? response.send(statusCodes.OK, result) : true
+            console.log('Merchants query finished')
 		},
 		error: handleError
 	})
@@ -24,6 +27,7 @@ exports.get = function(request, response) {
 		success: function(res) {
 			result.items = res
             oneComplete = oneComplete ? response.send(statusCodes.OK, result) : true
+            console.log('Items query finished')
 		},
 		error: handleError
 	})
