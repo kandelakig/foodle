@@ -1,7 +1,8 @@
 {
-	"name": "Pizza",
-	"merchant": 1,
+	"name": "Cheesecake",
+	"merchant": 3,
 	"price": 7,
-	"image": "https://lh4.googleusercontent.com/-9lPXaBfW9-uOgureI6s63Gh83zaNUTxk_rH-qJwxUr-hRC3LIfYAI2DcuD8iXVn2Q=w1126-h515",
-	"size": "50 გრამი"
+	"image": "https://s3-eu-west-1.amazonaws.com/food4u/2.png",
+	"size": "50 გრამი",
+	"ranking": 7
 }

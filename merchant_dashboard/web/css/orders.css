@@ -5,14 +5,14 @@ body {
 }
 
 body {
-  background: #eeeeee;
+  background-image: url('../img/pattern.png');
   color: #333333;
-  font: 22px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 22px Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 
 .big-container {
-  background: white;
+  background: #950095;
   margin: 10px auto 10px auto;
   width: 800px;
   height: 710px;
@@ -23,17 +23,18 @@ body {
 }
 
 .header-container {
+  color: white;
   margin: 0 15px 15px 15px;
   padding-top: 10px;
-  font-weight: 100;
   font-size: 60px;
-  font-style: italic;
+  font-weight: bold;
 }
 
 .orders-container {
   margin: 0 15px 15px 15px;
   height: 600px;
-  background: #eeeeee;
+  background: white;
+  overflow:scroll;
 }
 
 .dummy {
@@ -41,20 +42,22 @@ body {
 }
 
 .order-list-item-container {
-  border: 1px solid black;
+  background: white;
+  border: 1px solid #950095;
   margin: 5px;
   padding: 5px;
 }
 
 .order-list-item {
-  background: white;
+  border: 1px solid #950095;
   display: inline;
   margin-right: 10px;
   padding: 0 5px 0 5px;
 }
 
 .order-list-item.button {
-  width: 50px;
+  border: none;
+  width: 20px;
   display: inline;
   float: right;
   margin: 0 0 0 10px;

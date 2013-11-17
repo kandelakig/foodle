@@ -1,0 +1,10 @@
+{
+	"name": "Super cool cacke cafe",
+	"address": "1 blablabla st. Tbilisi, Georgia",
+	"longtitude": 50,
+	"latitude": 60,
+	"description": "Best cafe ever",
+	"worksFrom": "10:00",
+	"worksTill": "21:00",
+	"image": "https://s3-eu-west-1.amazonaws.com/food4u/rest01.jpg"
+}
