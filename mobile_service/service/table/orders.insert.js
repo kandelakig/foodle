@@ -8,10 +8,15 @@ function insert(item, user, request) {
     var orderItems = item.orderItems;
     
     delete item.orderItems;
+    
+    item.totalPrice = orderItems.map(function(orderItem) {
+        return orderItem.price * orderItem.quantity
+    }).reduce(function(prev, curr, ind) {
+        return prev + curr
+    })
 
     request.execute({
         success: function() {
-            console.log(item)
             var orderItemsTable = tables.getTable('orderItems')
             orderItems.forEach(function(orderItem) {
                 orderItemsTable.insert({
