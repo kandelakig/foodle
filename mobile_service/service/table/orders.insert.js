@@ -1,4 +1,6 @@
 function insert(item, user, request) {
+    
+    console.log('New order: ', item)
 
     item.createDate = new Date()
     item.updateDate = new Date()

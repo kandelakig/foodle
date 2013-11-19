@@ -5,7 +5,7 @@
         "permission": "application"
       },
       "read": {
-        "permission": "application"
+        "permission": "public"
       },
       "update": {
         "permission": "application"
