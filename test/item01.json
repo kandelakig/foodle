@@ -1,9 +1,9 @@
 {
-	"name": "ბრაუნი",
-	"merchant": 3,
-	"price": 10.55,
-	"image": "https://s3-eu-west-1.amazonaws.com/food4u/1.png",
-	"ingredients": "Chocolate and more",
-	"size": "50 გრამი",
-	"ranking": 9
+	"name": "შნიცელი",
+	"merchant": 1,
+	"price": 6.50,
+	"image": "https://s3-eu-west-1.amazonaws.com/food4u/hot2.png",
+	"ingredients": "",
+	"size": "",
+	"ranking": 10
 }

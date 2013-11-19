@@ -19,7 +19,7 @@ define(['jquery', 'lib/mustache', 'azure', 'lib/underscore'], function($, Mustac
         $('div.orders-container>.dummy').after(html)
       })
     }).done(function() {
-      // console.log('Refresh complete in ' + (new Date() - start) + ' milliseconds')
+      console.log('Refresh complete in ' + (new Date() - start) + ' milliseconds')
     })
   }
 

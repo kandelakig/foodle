@@ -1,10 +1,10 @@
 {
-	"name": "Super cool cacke cafe",
-	"address": "1 blablabla st. Tbilisi, Georgia",
+	"name": "კაიზერ ბრაუ",
+	"address": "1 Shardeni st. Tbilisi, Georgia",
 	"longtitude": 50,
 	"latitude": 60,
-	"description": "Best cafe ever",
-	"worksFrom": "10:00",
+	"description": "There were selling good beer once",
+	"worksFrom": "13:00",
 	"worksTill": "21:00",
-	"image": "https://s3-eu-west-1.amazonaws.com/food4u/rest01.jpg"
+	"image": "https://s3-eu-west-1.amazonaws.com/food4u/rest03.jpg"
 }

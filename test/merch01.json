@@ -1,10 +1,10 @@
 {
-	"name": "ბათუთაქუარი",
-	"address": "1 blablabla st. Tbilisi, Georgia",
+	"name": "პასტა",
+	"address": "1 Tabidze st. Tbilisi, Georgia",
 	"longtitude": 5,
 	"latitude": 6,
-	"description": "უკეთესი სხვა თუ არი?",
+	"description": "იტალიური სამზარეულო",
 	"worksFrom": "10:00",
 	"worksTill": "21:00",
-	"image": "https://s3-eu-west-1.amazonaws.com/food4u/1.png"
+	"image": "https://s3-eu-west-1.amazonaws.com/food4u/rest02.jpg"
 }
