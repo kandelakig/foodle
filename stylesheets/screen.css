@@ -177,6 +177,10 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+p, ul li {
+  font-family: 'Open Sans', Myriad, Calibri, sans-serif;
+}
+
 a, a:hover {
   color: #417090;
 }
@@ -218,8 +222,23 @@ ul {
 }
 
 ul li {
-  padding-left: 10px;
-  background: transparent url(../images/chevron.png) left 6px no-repeat;
+  padding-left: 20px;
+}
+
+ul li.burger {
+  background: transparent url(../images/Burger.png) left 6px no-repeat;
+}
+
+ul li.cocktail {
+  background: transparent url(../images/cockteil.png) left 6px no-repeat;
+}
+
+ul li.coffee {
+  background: transparent url(../images/coffee.png) left 6px no-repeat;
+}
+
+ul li.pancake {
+  background: transparent url(../images/pancake.png) left 6px no-repeat;
 }
 
 blockquote {
