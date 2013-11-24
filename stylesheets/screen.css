@@ -130,8 +130,8 @@ header {
 }
 
 header div.logo {
-  background: transparent url(../images/Logo.png) center no-repeat;
   height: 249px;
+  background: transparent url(../images/Logo.png) center no-repeat;
 }
 
 header h1 {
