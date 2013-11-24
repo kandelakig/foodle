@@ -121,7 +121,7 @@ div.shell {
   -ms-box-shadow: rgba(0, 0, 0, 0.8) 0 0 16px 0;
   -o-box-shadow: rgba(0, 0, 0, 0.8) 0 0 16px 0;
   box-shadow: rgba(0, 0, 0, 0.8) 0 0 16px 0;
-  background-color: #f8f6f1;
+  background-color: white;
 }
 
 /* header */
@@ -259,7 +259,7 @@ footer span.octocat {
 /* content */
 
 body {
-  background: #ebe4d7;
+  background: url(../images/pattern-02.png) 0 0 repeat;
   font: normal normal 15px/1.5 Georgia, Palatino,” Palatino Linotype”, Times, “Times New Roman”, serif;
   color: #544943;
   -webkit-font-smoothing: antialiased;
