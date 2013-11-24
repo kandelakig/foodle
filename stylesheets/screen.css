@@ -115,18 +115,23 @@ header, footer, section {
 div.shell {
   display: block;
   width: 670px;
-  margin: 0 auto;
+  margin: 30px auto;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.8) 0 0 16px 0;
+  -moz-box-shadow: rgba(0, 0, 0, 0.8) 0 0 16px 0;
+  -ms-box-shadow: rgba(0, 0, 0, 0.8) 0 0 16px 0;
+  -o-box-shadow: rgba(0, 0, 0, 0.8) 0 0 16px 0;
+  box-shadow: rgba(0, 0, 0, 0.8) 0 0 16px 0;
+  background-color: #f8f6f1;
 }
 
 /* header */
 
 header {
-  background-color: #ece4d8;
   position: relative;
   z-index: 2;
   margin: 0 auto;
   max-width: 600px;
-  padding-top: 38px;
+  top: 8px;
 }
 
 header div.logo {
@@ -156,7 +161,6 @@ header h2 {
 }
 
 section#main_content {
-  background-color: #ece4d8;
   margin: 0 auto;
   max-width: 600px;
   z-index: 2;
