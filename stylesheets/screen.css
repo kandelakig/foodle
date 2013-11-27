@@ -340,6 +340,31 @@ dd p:first-child {
   margin-top: 0;
 }
 
+.vote-img-container {
+}
+
+.vote-link {
+  border: none;
+}
+
+.vote-img {
+  border: 1px solid black;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  width: 180px;
+  margin-right: 22px;
+}
+
+.vote-img.last {
+  margin-right: 0;
+}
+
+b {
+  font-weight: bold;
+  color: #9E1E62;
+}
+
 /* Content based headers */
 
 #main_content > .header-level-1:first-child,
